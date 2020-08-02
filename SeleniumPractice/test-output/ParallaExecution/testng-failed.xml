@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="2" name="Failed suite [ParallaExecution]" parallel="methods">
+  <test name="testngTest(failed)" parallel="methods">
+    <classes>
+      <class name="BDD.SeleniumPractice.ParallelTests">
+        <methods>
+          <include name="getaIe"/>
+        </methods>
+      </class> <!-- BDD.SeleniumPractice.ParallelTests -->
+    </classes>
+  </test> <!-- testngTest(failed) -->
+</suite> <!-- Failed suite [ParallaExecution] -->
